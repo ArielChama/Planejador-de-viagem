@@ -4,7 +4,7 @@ interface ModalProps {
   OpenModal: () => void;
 }
 
-const ModalConfirmEmail = ({ OpenModal }: ModalProps) => {
+const ModalConfirmParticipation = ({ OpenModal }: ModalProps) => {
   return (
     <div className="fixed inset-0 bg-black/60 flex items-center justify-center">
       <div className="rounded-xl w-[640px] p-4 bg-zinc-900 space-y-10">
@@ -14,6 +14,10 @@ const ModalConfirmEmail = ({ OpenModal }: ModalProps) => {
             <p className="text-zinc-400 text-sm">
               Para concluir a criação da viagem para <span className="text-zinc-100 font-semibold">Florianópolis,
                 Brasi</span> nas datas de <span className="text-zinc-100 font-semibold">16 a 27 de Agosto de 2024</span> preencha seus dados abaixo:
+            </p>
+
+            <p className="text-zinc-400 text-sm">
+              Para confirmar sua presença na viagem, preencha os dados abaixo:
             </p>
           </div>
 
@@ -37,7 +41,7 @@ const ModalConfirmEmail = ({ OpenModal }: ModalProps) => {
 
           <div className="w-full">
             <a href="/trips" className="bg-lime-300 w-full text-lime-950 px-5 py-2 rounded-lg text-center font-medium hover:bg-lime-400">
-              Confirmar criação da viagem
+              Confirmar minha presença
             </a>
           </div>
 
@@ -47,4 +51,4 @@ const ModalConfirmEmail = ({ OpenModal }: ModalProps) => {
   )
 }
 
-export default ModalConfirmEmail
+export default ModalConfirmParticipation

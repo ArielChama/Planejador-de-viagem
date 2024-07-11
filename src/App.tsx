@@ -1,4 +1,4 @@
-import { ArrowRight, AtSign, Calendar, MapPin, Plus, Settings2, UserRoundPlus, X } from "lucide-react"
+import { ArrowRight, Calendar, MapPin, Settings2, UserRoundPlus} from "lucide-react"
 import { FormEvent, useState } from "react"
 import ModalEmail from "./components/ModalEmail"
 import ModalConfirmEmail from "./components/ModalConfirmEmail"
